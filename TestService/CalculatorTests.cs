@@ -36,3 +36,4 @@ namespace TestService
             _logger.Verify(x => x.Log(It.IsAny<string>()), Times.Once);
         }
     }
+}
